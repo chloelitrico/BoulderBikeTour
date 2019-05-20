@@ -14,6 +14,7 @@ body {
     top: 0;
     width: 3em;
 }
+
 .navbar__list {
     list-style: none;
     padding: 0;
@@ -40,17 +41,15 @@ body {
     transition: all 300ms ease;
 }
 
-
 .nav {
     background: #f7373a;
     height: 100%;
     position: fixed;
     transition: all 300ms ease;
-    transform: translatex(-25em);
-    visibility: hidden;
     width: 20em;
+    top: 0;
     z-index: 100;
-}
+} 
 
 .nav__list {
       list-style: none;
@@ -66,12 +65,9 @@ body {
       text-transform: uppercase;
       text-decoration: none;
       transition: color 300ms ease;
-}
-.nav__link:hover {
-        color: darken(#f7373a, 25);
+      font-weight: bold;
 }
 
-  
 .nav__btn {
       all: unset;
       color: #f7373a;
@@ -84,15 +80,6 @@ body {
       top: 0.15em;
       transition: all 300ms ease;
 }    
-.nav__btn:hover {
-        color: darken(#f7373a, 25);
-
-}
-  
-.nav--is-visible {
-      transform: translatex(0);
-      visibility: visible;
-  }
   
 @media (max-width: 40em) {
     .nav {
