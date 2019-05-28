@@ -1,0 +1,29 @@
+.counter_body {
+    
+    background: black url("../../assets/images/paolo-candelo-203824-unsplash.jpg") center center no-repeat;;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding:5%;
+}
+
+.time {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.counter_number {
+    
+    text-transform: uppercase;
+    display: justify;
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+.counter_label {
+    font-size: 17px;
+    font-weight: lighter;
+}
